@@ -9,7 +9,7 @@ body {
 	font-size: 12px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-  background-color: #000;
+  background-color: #BDF0FF;
 }
 
 a {
@@ -17,10 +17,16 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.pres-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.pres-link:hover {
   color: #000;
   text-decoration: line-through;
 }
+
 
 .bg-container {
   height: 100vh;
@@ -31,14 +37,15 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-  background-color: #E8FCFF;
+
+  border-left: 30px solid #fff;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*video#bgvid {
+video#bgvid {
   position: fixed; 
   right: 0; 
   top: 0;
@@ -48,10 +55,10 @@ a:hover {
   height: auto; 
   z-index: -100;
   background-size: cover;
-  opacity: 1;
+  opacity: 0.1;
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
-}*/
+}
 
 
 .black-block {
@@ -61,7 +68,7 @@ a:hover {
 	height: 100px;
 	background-color: #333;
   top: 15px;
-  left: 15px;
+  left: -15px;
   justify-content: center;
   align-items: center;
 
@@ -74,38 +81,39 @@ a:hover {
 
 .middle {
   display: flex;
-  width: 500px;
+  width: 800px;
   height: auto;
-  background-color: #fff;
+  /*background-color: #fff;*/
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 
-  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
+  /*-moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
   -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
   -o-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);*/
 }
 
 .type-wrap{
+  color: #fff;
 	margin: 50px auto;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
-  background: #fff;
+  /*background: #fff;*/
   line-height: 60px;
   text-align: left;
-  width: 750px;
-  font-size: 12px;
-  font-weight: 200;
+  width: 800px;
+  font-size: 22px;
+  font-weight: 400;
   letter-spacing: 5px;
-  background: url("../img/dust.png");
+  /*background: url("../img/dust.png");
   background-size: cover;
   background-position: center;
   border-top: 1px dashed #000;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dashed #000;*/
 }
 
 .links{
@@ -162,13 +170,15 @@ a:hover {
 .button--nina {
   font-family: 'Karla', Arial, sans-serif;
   padding: 0 2em;
-  background-color: #FF6767;
+  background-color: #E63856;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 4px;
-  font-size: 16px;
-  width: 130px;
+  letter-spacing: 6px;
+  font-size: 12px;
+  width: 170px;
+  height: 50px;
+  line-height: 28px;
   text-align: center;
   overflow: hidden;
   -webkit-transition: background-color 0.3s;

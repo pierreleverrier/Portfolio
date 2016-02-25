@@ -76,14 +76,14 @@
 	<body>
 	<div class="container-fluid bg-container animsition">
 
-		<!--
+		
 		<video autoplay loop muted id="bgvid">
-	        <source src="video/stars.mp4" type="video/mp4"/>
+	        <source src="video/sky.mp4" type="video/mp4"/>
 	    </video>
-		-->
+		
 
 		<nav id="bt-menu" class="bt-menu">
-		<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+		<a href="#" class="bt-menu-trigger"><span>Work</span></a>
 			<ul>
 				<li><a href="#">→ Anecgones</a></li>
 				<li><a href="#">→ TV App</a></li>
@@ -127,7 +127,7 @@
 			<div class="type-wrap">
 
 	            <div id="typed-strings">
-	                <p><i class="fa fa-terminal"></i> Hello there <i class="fa fa-hand-peace-o"></i><br/><i class="fa fa-terminal"></i> My name is <strong>Pierre</strong>.<br/><i class="fa fa-terminal"></i> I'm a <strong>graphic designer</strong>.<br /><i class="fa fa-terminal"></i> Thanks for stopping by ! <i class="fa fa-smile-o"></i><br />What would you prefer ?<br /><a href="#"><i class="fa fa-file-image-o"></i> See my work</a><br /><a href="#"><i class="fa fa-info-circle"></i> Know more about me</a></p>
+	                <p>Hello there <i class="fa fa-hand-peace-o"></i><br/>My name is <strong>Pierre</strong>.<br/>I'm a <strong>graphic designer</strong>.<br />Thanks for stopping by ! <i class="fa fa-smile-o"></i></p>
 	            </div>
 	            <span id="typed"></span>
 
