@@ -16,7 +16,6 @@
 .bt-menu.bt-menu-open {
 	height: 100%;
 	border-width: 0px 0px 0px 300px;
-	background-color: rgba(0,0,0,0.3);
 	-webkit-transition: border-width 0.3s, background-color 0.3s;
 	transition: border-width 0.3s, background-color 0.3s;
 }
@@ -32,20 +31,30 @@
 
 .bt-menu-trigger {
 	position: fixed;
-    top: 39px;
+    top: 15px;
     left: 115px;
     z-index: 100;
     display: block;
-    width: 110px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
     background-color: #fff;
 }
 
+.bt-menu-trigger:hover span:before {
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.bt-menu-trigger:hover span:after {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
 .bt-menu-trigger span {
 	position: absolute;
-    top: 42%;
-    left: 20%;
+    top: 40%;
+    left: 28%;
     display: block;
     width: 35%;
     height: 1%;
@@ -62,20 +71,32 @@
     transition: background-color 0.3s;
 }
 
-.bt-menu-trigger span:before,
-.bt-menu-trigger span:after {
+.bt-menu-trigger span:before {
 	position: absolute;
-    top: 5px;
-    left: 59px;
+    top: 27px;
+    left: 15px;
     width: 40%;
     height: 100%;
     background: #333;
     content: '';
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
-
     -webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.bt-menu-trigger span:after {
+	position: absolute;
+    top: 27px;
+    left: 15px;
+    width: 40%;
+    height: 100%;
+    background: #333;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .bt-menu-trigger span:before {
@@ -115,7 +136,7 @@
 }
 
 .bt-menu ul:nth-of-type(2) {
-	left: 35px;
+	left: 60px;
 	bottom: 0px;
 }
 
@@ -195,7 +216,7 @@
 
 /* Second menu */
 .bt-menu ul:nth-of-type(2) li {
-	width: 50px;
+	width: 35px;
 	height: 50px;
 	line-height: 50px;
 	-webkit-transform: scale(0);
@@ -257,7 +278,7 @@
 .bt-menu ul:nth-of-type(2) li a {
 	color: #333;
 	text-align: left;
-	font-size: 10px;
+	font-size: 8px;
 	 -webkit-transition:all .1s ease;
 	     -o-transition:all .1s ease;
 	        transition:all .1s ease;
@@ -266,7 +287,7 @@
 .bt-menu ul:nth-of-type(2) li a:hover {
 	color: #666;
 	text-align: left;
-	font-size: 10px;
+	font-size: 8px;
 }
 
 .bt-menu ul li a:before {

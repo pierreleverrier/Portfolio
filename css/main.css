@@ -9,22 +9,7 @@ body {
 	font-size: 12px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-  background-color: #BDF0FF;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-.pres-link {
-  color: #000;
-  text-decoration: none;
-}
-
-.pres-link:hover {
-  color: #000;
-  text-decoration: line-through;
+  background-color: #fff;
 }
 
 
@@ -38,14 +23,15 @@ a {
   -o-background-size: cover;
   background-size: cover;*/
 
+  background-color: #BDF0FF;
   border-left: 30px solid #fff;
 
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 
-video#bgvid {
+/*video#bgvid {
   position: fixed; 
   right: 0; 
   top: 0;
@@ -58,7 +44,7 @@ video#bgvid {
   opacity: 0.1;
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
-}
+}*/
 
 
 .black-block {
@@ -96,24 +82,27 @@ video#bgvid {
 }
 
 .type-wrap{
-  color: #fff;
-	margin: 50px auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  color: #000;
+  margin: 14px;
+  margin-left: 190px;
+  padding-top: 19px;
+  padding-bottom: 19px;
   padding-left: 50px;
   padding-right: 50px;
-  /*background: #fff;*/
+  background: #fff;
   line-height: 60px;
   text-align: left;
   width: 800px;
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 5px;
+  border: 1px solid #fff;
   /*background: url("../img/dust.png");
   background-size: cover;
   background-position: center;
   border-top: 1px dashed #000;
   border-bottom: 1px dashed #000;*/
+  border: 1px solid #fff;
 }
 
 .links{
@@ -163,7 +152,7 @@ video#bgvid {
   float: right;
   position: absolute;
   bottom: 0px;
-  right: 0px;
+  right: 20px;
 }
 
 /* Nina */

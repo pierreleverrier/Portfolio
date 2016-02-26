@@ -76,23 +76,25 @@
 	<body>
 	<div class="container-fluid bg-container animsition">
 
-		
+		<!--
 		<video autoplay loop muted id="bgvid">
 	        <source src="video/sky.mp4" type="video/mp4"/>
 	    </video>
+		-->
 		
 
 		<nav id="bt-menu" class="bt-menu">
-		<a href="#" class="bt-menu-trigger"><span>Work</span></a>
+		<a href="#" class="bt-menu-trigger"><span>MENU</span></a>
 			<ul>
-				<li><a href="#">→ Anecgones</a></li>
-				<li><a href="#">→ TV App</a></li>
-				<li><a href="#">→ L'Exception</a></li>
-				<li><a href="#">→ Creative Breakfast</a></li>
-				<li><a href="#">→ Lyon BD</a></li>
-				<li><a href="#">→ INSA</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> Anecgones</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> TV App</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> L'Exception</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> Creative Breakfast</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> Lyon BD</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> INSA</a></li>
 				<li><a href="#"><i class="fa fa-info-circle"></i> About me</a></li>
 			</ul>
+			<!--
 			<ul>
 				<li><a href="https://dribbble.com/pierreleverrier" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a></li>
 				<li><a href="https://www.instagram.com/pierre_leverrier/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
@@ -100,6 +102,7 @@
 				<li><a href="https://twitter.com/leverrierpierre" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
 				<li><a href="mailto:leverrier.pierre@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a></li>
 			</ul>
+			-->
 		</nav>
 
 		<div class="row">
@@ -127,7 +130,10 @@
 			<div class="type-wrap">
 
 	            <div id="typed-strings">
-	                <p>Hello there <i class="fa fa-hand-peace-o"></i><br/>My name is <strong>Pierre</strong>.<br/>I'm a <strong>graphic designer</strong>.<br />Thanks for stopping by ! <i class="fa fa-smile-o"></i></p>
+	                <p><i class="fa fa-terminal"></i>Hello there <i class="fa fa-hand-peace-o"></i></p>
+	                <p><i class="fa fa-terminal"></i>My name is <strong>Pierre</strong>.</p>
+	                <p><i class="fa fa-terminal"></i>I'm a <strong>graphic designer</strong>.</p>
+	                <p><i class="fa fa-terminal"></i>Thanks for stopping by ! <i class="fa fa-smile-o"></i></p>
 	            </div>
 	            <span id="typed"></span>
 
